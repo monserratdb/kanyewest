@@ -1,0 +1,40 @@
+.........................EEEE...........
+======================================================================
+ERROR: test_filtrar_por_categoria_1 (test_A5.TestFiltros)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/A5/monserratdb/test_A5.py", line 438, in test_filtrar_por_categoria_1
+    usa_metodo_prohibido(funciones.filtrar_por_categoria, ["list", "dict", "set", "tuple"])
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/A5/monserratdb/test_A5.py", line 36, in usa_metodo_prohibido
+    raise ComandoProhibidoError(comandos)
+test_A5.ComandoProhibidoError: Se utiliza alguno de estos elementos en la función: list, dict, set, tuple
+======================================================================
+ERROR: test_filtrar_por_categoria_2 (test_A5.TestFiltros)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/A5/monserratdb/test_A5.py", line 451, in test_filtrar_por_categoria_2
+    usa_metodo_prohibido(funciones.filtrar_por_categoria, ["list", "dict", "set", "tuple"])
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/A5/monserratdb/test_A5.py", line 36, in usa_metodo_prohibido
+    raise ComandoProhibidoError(comandos)
+test_A5.ComandoProhibidoError: Se utiliza alguno de estos elementos en la función: list, dict, set, tuple
+======================================================================
+ERROR: test_filtrar_por_categoria_3 (test_A5.TestFiltros)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/A5/monserratdb/test_A5.py", line 467, in test_filtrar_por_categoria_3
+    usa_metodo_prohibido(funciones.filtrar_por_categoria, ["list", "dict", "set", "tuple"])
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/A5/monserratdb/test_A5.py", line 36, in usa_metodo_prohibido
+    raise ComandoProhibidoError(comandos)
+test_A5.ComandoProhibidoError: Se utiliza alguno de estos elementos en la función: list, dict, set, tuple
+======================================================================
+ERROR: test_filtrar_por_categoria_vacio (test_A5.TestFiltros)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/A5/monserratdb/test_A5.py", line 480, in test_filtrar_por_categoria_vacio
+    usa_metodo_prohibido(funciones.filtrar_por_categoria, ["list", "dict", "set", "tuple"])
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/A5/monserratdb/test_A5.py", line 36, in usa_metodo_prohibido
+    raise ComandoProhibidoError(comandos)
+test_A5.ComandoProhibidoError: Se utiliza alguno de estos elementos en la función: list, dict, set, tuple
+----------------------------------------------------------------------
+Ran 40 tests in 0.043s
+FAILED (errors=4)

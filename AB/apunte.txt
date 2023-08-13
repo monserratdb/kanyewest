@@ -1,0 +1,36 @@
+import requests
+url = "https://..."
+response = requests.get(url)
+print(response.json)
+
+---------------------------
+obtener textos
+BASE = "https"
+endpoint = "texts/"
+parametros ...
+
+-------------------
+¿qué son los headers?
+headers = { "Autorizacion": "token SJSKALKSALJ" }
+responde = request.post(url, datos_asubir, headers)
+tb puede ser request.put, .delete o .patch
+
+------------------------------------
+¿qué son las regex?
+forma de filtrar info, seleccionar cosas que cumplen con ciertos criterios 
+
+---------------------------------------------
+[] Define clases de caracteres que serán capturados.
+() Define grupos de caracteres que serán capturados.
++ Indica que una expresión regular puede estar 1 o más veces.
+* Indica que una expresión regular puede estar 0 o más veces.
+. Hace match con cualquier carácter.
+\ Indica que los meta caracteres serán usados como parte del patrón.
+\d Hace match con cualquier dígito.
+? Indica que puede estar una vez o no estar
+{m, n} Indica que se repite entre m y n veces
+^ Indica inicio del string
+$ Indica término del srting
+
+
+

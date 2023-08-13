@@ -1,0 +1,18 @@
+...FF..................................................
+======================================================================
+FAIL: test_extraer_signo_invalido_4 (test_AB.RegexTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/AB/monserratdb/test_AB.py", line 430, in test_extraer_signo_invalido_4
+    self.assertEqual(respuesta, None)
+AssertionError: <re.Match object; span=(0, 68), match='la[43 chars]mejo> != None
+======================================================================
+FAIL: test_extraer_signo_invalido_5 (test_AB.RegexTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/cpere/Desktop/DCC/Ayudantias/2023-1/corrector_actividades/AB/monserratdb/test_AB.py", line 435, in test_extraer_signo_invalido_5
+    self.assertEqual(respuesta, None)
+AssertionError: <re.Match object; span=(0, 55), match='Lo[43 chars]quar> != None
+----------------------------------------------------------------------
+Ran 55 tests in 0.308s
+FAILED (failures=2)
